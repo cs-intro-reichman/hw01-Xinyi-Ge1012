@@ -3,16 +3,24 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-	        int a = 3;
+	 int a = 3;
 		int b = 5;
-		int c = a + b;
 		
-		int d = 9281;
-		int e = 719;
-		int f = d + e;
-	System.out.println( a + " + " + b + " = " + c );
-	System.out.println( d + " + " + e + " = " + f );
+	System.out.println( a + " + " + b + " = " + ( a + b ) );
+
+
+
+	int c = 9281;
+	int d = 719;
+	
+System.out.println(  c+ " + " + d + " = " + ( c + d ) );
+
+
+
 		
 	
-	}
+	}        
+		
+	
+	
 }
