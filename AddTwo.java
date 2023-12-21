@@ -9,14 +9,6 @@ public class AddTwo {
 	System.out.println( a + " + " + b + " = " + ( a + b ) );
 
 
-
-	int c = 9281;
-	int d = 719;
-	
-System.out.println(  c+ " + " + d + " = " + ( c + d ) );
-
-
-
 		
 	
 	}        
