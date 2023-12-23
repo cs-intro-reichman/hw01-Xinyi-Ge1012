@@ -14,10 +14,7 @@ public class GenThree {
 		 c = (int) (Math.random() * (MAX - MIN) + MIN);
 
 		 }
-		    System.out.print(a);
-		    System.out.print(b);
-		    System.out.print(c);
-
+		   
 	   }
                 int min ;
 
@@ -28,13 +25,15 @@ public class GenThree {
            } 
 	         else {
 	          if (b > c) {
-	            max = b;
+	            min = b;
 	         } 
 	         else {
-	            max = c;
+	            min = c;
 	           }
 	   }
-	   
+	            System.out.print(a);
+		    System.out.print(b);
+		    System.out.print(c);
 			System.out.println( "The minimal generated number was " + min );
 	}
 
