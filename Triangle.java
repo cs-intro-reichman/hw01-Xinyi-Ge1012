@@ -11,9 +11,8 @@ public class Triangle {
 		int c = Integer.parseInt(args[2]);
 
          if ( (a + b) > c ) 
-		           System.out.println( "a, b, c: true" );
-	else               System.out.println( "a, b, c: false" );		   
-
-
+		         System.out.println( a + ", " + b + ", " + c + ": true" );
+	else       System.out.println( a + ", " + b + ", " + c + ": false" );		   
+ 
 	}
 }
