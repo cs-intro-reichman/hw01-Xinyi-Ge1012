@@ -20,13 +20,23 @@ public class GenThree {
 
 	   }
                 int min ;
-	  if (a < b && a < c) {
-			min = a;
-			}
-		 else if(c < a && c < b) {
-				min = c;
-			  }
-		       else min = b;
+
+	     if (a > b) {
+	             if (a > c) {
+	                min = a;
+	              }  
+           } 
+	         else {
+	          if (b > c) {
+	            max = b;
+	         } 
+	         else {
+	            max = c;
+	           }
+	   }
+	   
 			System.out.println( "The minimal generated number was " + min );
 	}
+
+
 
