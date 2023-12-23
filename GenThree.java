@@ -15,9 +15,9 @@ public class GenThree {
 		 c = (int) ( r * (MAX - MIN) + MIN);
 
 		 
-	        System.out.print(a);
-		    System.out.print(b);
-		    System.out.print(c);
+	            System.out.printIn(a);
+		    System.out.printIn(b);
+		    System.out.printIn(c);
 		 
 
 	     if (a < b) {
