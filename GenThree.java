@@ -4,38 +4,39 @@
  */
 public class GenThree {
 	public static void main(String[] args) {
-	   int MIN = Integer.parseInt(args[0]);
+	  int MIN = Integer.parseInt(args[0]);
 	   int MAX = Integer.parseInt(args[1]);
 
-	       int a, b, c;
-	   for (int i = 0; i < 10; i++) {
-         a = (int) (Math.random() * (MAX - MIN) + MIN);
-		 b = (int) (Math.random() * (MAX - MIN) + MIN);
-		 c = (int) (Math.random() * (MAX - MIN) + MIN);
+	        int a, b, c;
+			double r = Math.random();
+			
+         a = (int) ( r * (MAX - MIN) + MIN);
+		 b = (int) ( r * (MAX - MIN) + MIN);
+		 c = (int) ( r * (MAX - MIN) + MIN);
 
-		 }
-		   
-	   }
-                int min ;
+		 
+	        System.out.print(a);
+		    System.out.print(b);
+		    System.out.print(c);
+		 
 
-	     if (a > b) {
-	             if (a > c) {
-	                min = a;
+	     if (a < b) {
+	             if (a < c) {
+	                System.out.println( "The minimal generated number was " + a );
 	              }  
            } 
 	         else {
-	          if (b > c) {
-	            min = b;
+	          if (b < c) {
+	            System.out.println( "The minimal generated number was " + b );
 	         } 
 	         else {
-	            min = c;
+	            System.out.println( "The minimal generated number was " + c );
 	           }
 	   }
-	            System.out.print(a);
-		    System.out.print(b);
-		    System.out.print(c);
-			System.out.println( "The minimal generated number was " + min );
+	        
+			
 	}
 
-
+}
+	 
 
