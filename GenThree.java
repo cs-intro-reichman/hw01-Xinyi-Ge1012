@@ -19,14 +19,14 @@ public class GenThree {
 		    System.out.print(c);
 
 	   }
-          int min ;
-		    if (a < b && a < c){
-				min = a;
+                int min ;
+	  if (a < b && a < c) {
+			min = a;
 			}
-			  else if(c < a && c < b){
+		 else if(c < a && c < b) {
 				min = c;
 			  }
-		       else min =b;
+		       else min = b;
 			System.out.println( "The minimal generated number was " + min );
 	}
 
